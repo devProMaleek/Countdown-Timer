@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Raleway:wght@200;400;600&display=swap');
 
 /* Universal Style */
 * {
@@ -14,16 +14,21 @@ body {
     background-repeat: no-repeat;
     background-position: center 30%;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 }
 
 /* Countdown Container Style */
 .countdown-container {
     display: flex;
+    justify-content: space-between;
+    width: 70%;
+    flex-wrap: wrap;
   
 }
 
@@ -31,11 +36,20 @@ body {
 h1 { 
     font-size: 4rem;
     margin-top: -3rem;
+    font-weight: bold;
 }
 
+/* Big text */
 .big-text { 
     font-size: 6rem;
     line-height: 1;
-    margin: 0 2rem;
-    
+    margin: 0 2rem;   
+}
+
+/* Countdown Element */
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span {
+    font-size: 1.5rem;
 }
