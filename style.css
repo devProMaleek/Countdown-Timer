@@ -55,9 +55,15 @@ h1 {
     font-size: 1.5rem;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
+
+    body {
+        /* background-position:  30%; */
+    }
+
     .countdown-container {
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
     }  
     
